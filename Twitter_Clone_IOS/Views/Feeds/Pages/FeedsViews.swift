@@ -45,7 +45,7 @@ struct SegmentedView: View {
                         Text(segment)
                             .font(.footnote)
                             .fontWeight(.medium)
-                            .foregroundColor(selected == segment ? .black : Color(uiColor: .systemGray))
+                            .foregroundColor(selected == segment ? .blue : Color(uiColor: .systemGray))
                         ZStack {
                             Capsule()
                                 .fill(Color.clear)
